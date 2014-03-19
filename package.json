@@ -1,0 +1,37 @@
+{
+  "name": "node-plex-api",
+  "version": "0.0.0",
+  "description": "Advanced wrapper around the Http Api for Plex Media Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Plex",
+    "API",
+    "Media"
+  ],
+  "author": "Chris Shepherd",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "request": "~2.34.0",
+    "string": "~1.8.0",
+    "lodash": "~2.4.1",
+    "async": "~0.2.10",
+    "class-js2": "~0.5.0",
+    "xmldoc": "~0.1.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-jshint": "~1.5.0",
+    "jshint-stylish": "~0.1.5",
+    "mocha": "~1.18.2",
+    "chai": "~1.9.0",
+    "sinon": "~1.9.0",
+    "sinon-chai": "~2.5.0"
+  }
+}
