@@ -5,6 +5,12 @@ node_js:
 
 before_install:
   - npm install gulp
+  - npm install gulp-jshint
+  - npm install jshint-stylish
+  - npm install mocha
+  - npm install chai
+  - npm install sinon
+  - npm install sinon-chai
 
 script:
   - gulp
